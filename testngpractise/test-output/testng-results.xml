@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-18T08:25:39 IST" name="Default suite" finished-at="2024-10-18T08:25:40 IST" duration-ms="1158">
+    <groups>
+    </groups>
+    <test started-at="2024-10-18T08:25:39 IST" name="Default test" finished-at="2024-10-18T08:25:40 IST" duration-ms="1158">
+      <class name="con.testng.testngpractise.AccountManagerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:con.testng.testngpractise.AccountManagerTest@928763c]" started-at="2024-10-18T08:25:39 IST" name="setUp" finished-at="2024-10-18T08:25:39 IST" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInsertAccounts()[pri:0, instance:con.testng.testngpractise.AccountManagerTest@928763c]" started-at="2024-10-18T08:25:39 IST" name="testInsertAccounts" finished-at="2024-10-18T08:25:40 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertAccounts -->
+        <test-method signature="testCreateTestTable()[pri:0, instance:con.testng.testngpractise.AccountManagerTest@928763c]" started-at="2024-10-18T08:25:40 IST" name="testCreateTestTable" finished-at="2024-10-18T08:25:40 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateTestTable -->
+        <test-method signature="testDatabaseConnection()[pri:0, instance:con.testng.testngpractise.AccountManagerTest@928763c]" started-at="2024-10-18T08:25:40 IST" name="testDatabaseConnection" finished-at="2024-10-18T08:25:40 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDatabaseConnection -->
+        <test-method signature="testInsertAccountsNoDuplicates()[pri:0, instance:con.testng.testngpractise.AccountManagerTest@928763c]" started-at="2024-10-18T08:25:40 IST" name="testInsertAccountsNoDuplicates" finished-at="2024-10-18T08:25:40 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertAccountsNoDuplicates -->
+        <test-method signature="testExportAccountsToCSV()[pri:0, instance:con.testng.testngpractise.AccountManagerTest@928763c]" started-at="2024-10-18T08:25:40 IST" name="testExportAccountsToCSV" finished-at="2024-10-18T08:25:40 IST" depends-on-methods="con.testng.testngpractise.AccountManagerTest.testInsertAccounts" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExportAccountsToCSV -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:con.testng.testngpractise.AccountManagerTest@928763c]" started-at="2024-10-18T08:25:40 IST" name="tearDown" finished-at="2024-10-18T08:25:40 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- con.testng.testngpractise.AccountManagerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
